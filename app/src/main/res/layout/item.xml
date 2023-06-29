@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#D5BFF4"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:background="#D5BFF4"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#A9D5F8">
+
+            <TextView
+                android:id="@+id/tvjudulsurah"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:text="Al-Fatihah"
+                android:textColor="#1F2222"></TextView>
+
+            <TextView
+                android:id="@+id/tvterjemahan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvjudulsurah"
+                android:paddingLeft="20dp"
+                android:paddingTop="2dp"
+                android:text="Al-Fatihah"></TextView>
+
+            <TextView
+                android:id="@+id/tvnamaarab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:text="الفاتحة"
+                android:textColor="#1B2020"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
